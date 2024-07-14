@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="icon" href="./assets/favicon.png" sizes="any" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Write</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- External dependencies and aliases -->
+    <script type="importmap">
+      {
+        "imports": {
+          "@/": "./scripts/",
+          "@andreasphil/design-system": "https://esm.sh/gh/andreasphil/design-system@v0.30.0",
+          "@andreasphil/vue-textarea2": "https://esm.sh/gh/andreasphil/vue-textarea2@v0.3.0?external=vue",
+          "vue": "https://esm.sh/vue@3.4.31/dist/vue.esm-browser.prod.js"
+        }
+      }
+    </script>
+
+    <!-- App scripts -->
+    <script async type="module" src="./scripts/app.js"></script>
+  </head>
+
+  <body>
+    <div data-with-fallback>
+      <div id="app"></div>
+
+      <!-- Show a loading state while the app is starting -->
+      <div data-when="empty">
+        <p aria-busy="true"><small>Loading ...</small></p>
+      </div>
+    </div>
+  </body>
+</html>
