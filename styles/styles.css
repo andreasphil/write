@@ -1,7 +1,7 @@
-@import url("https://esm.sh/gh/andreasphil/design-system@v0.30.0/dist/index.min.css")
+@import url("https://esm.sh/gh/andreasphil/design-system@v0.34.0/dist/index.min.css")
 layer(theme);
 
-@import url("https://esm.sh/gh/andreasphil/vue-textarea2@v0.3.0/dist/style.css")
+@import url("https://esm.sh/gh/andreasphil/vue-textarea2@v0.6.0/dist/style.css")
 layer(textarea2);
 
 /* -------------------------------------------------- *
