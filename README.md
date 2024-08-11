@@ -16,9 +16,13 @@
 - 📋 Do your writing and copy the result to the clipboard when you're done
 - 🤝 Zero tracking and no data ever leaves the browser
 
+## Usage
+
+Find the app at <https://write.a13i.dev>.
+
 ## Development
 
-The site is a [Vue 3](https://vuejs.org) app based on my [Unbuild](https://github.com/andreasphil/unbuild) template. The setup doesn't use any build steps or package management. You'll need a HTTP server for serving the project during development, since features such as JavaScript modules are not supported by the file protocol. Any server will do. I like [`servor`](https://github.com/lukejacksonn/servor):
+Write is a [Vue 3](https://vuejs.org) app based on the [Unbuild](https://github.com/andreasphil/unbuild) template. The setup doesn't use any build steps or package management. You'll need a HTTP server for serving the project during development, since features such as JavaScript modules are not supported by the file protocol. Any server will do. I like [`servor`](https://github.com/lukejacksonn/servor):
 
 ```sh
 # --browse launches a browser, --reload reloads when files change
