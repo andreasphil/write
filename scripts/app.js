@@ -249,10 +249,10 @@ const App = defineComponent({
         <Textarea2 v-model="text" class="document-text" />
       </template>
 
-      <div v-else class="landing">
-        <img class="landing-logo" src="./assets/icon-192.png" width="72" height="72" />
+      <div v-else class="home">
+        <img class="logo" src="./assets/icon-192.png" width="72" height="72" />
         <hgroup>
-          <h1 class="landing-title">Write</h1>
+          <h1>Write</h1>
           <p>
             A minimal, distraction-free text editor. Select or create a document to get started.
           </p>

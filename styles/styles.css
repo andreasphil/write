@@ -77,27 +77,20 @@ button[data-variant="ghost"]:hover {
  * Landing                                            *
  * -------------------------------------------------- */
 
-.landing {
+.home {
   text-align: center;
-
-  h1 {
-    color: var(--c-fg);
-    font-family: var(--font-serif);
-  }
-
-  img {
-    border-radius: calc(var(--border-radius-large) * 2);
-    box-shadow: var(--shadow-elevation-high);
-  }
 
   hgroup {
     margin-bottom: var(--body-padding-y);
   }
+
+  h1 {
+    font-family: var(--font-serif);
+  }
 }
 
-/* -------------------------------------------------- *
- * Utilities                                          *
- * -------------------------------------------------- */
-
-.font-serif {
+.logo {
+  border-radius: calc(var(--border-radius-large) * 2);
+  box-shadow: var(--shadow-elevation-high);
+  margin: 0 auto;
 }
