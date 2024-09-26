@@ -92,5 +92,6 @@ button[data-variant="ghost"]:hover {
 .logo {
   border-radius: calc(var(--border-radius-large) * 2);
   box-shadow: var(--shadow-elevation-high);
+  display: block;
   margin: 0 auto;
 }
